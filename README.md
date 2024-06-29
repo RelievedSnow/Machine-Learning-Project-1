@@ -1,5 +1,6 @@
 # Machine-Learning-Projects
 Project 1 : SONAR Rock vs Mine Prediction with Python
+Dataset Link: https://drive.google.com/file/d/1pQxtljlNVh0DHYg-Ye7dtpDTlFceHVfa/view
 
 # Step 1: Fisrt we importing dependencies
 -Such as numpy, pandas, train_test_split from sklearn.model_selection, LogisticRegression from sklearn.linear_model and at last accuracy_score from sklearn.metrics.S
