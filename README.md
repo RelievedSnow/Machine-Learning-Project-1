@@ -2,7 +2,7 @@
 # Project 1 : SONAR Rock vs Mine Prediction with Python
 Dataset Link: https://drive.google.com/file/d/1pQxtljlNVh0DHYg-Ye7dtpDTlFceHVfa/view
 
-# Step 1: Fisrt we importing dependencies
+# Step 1: Importing dependencies.
 * Such as numpy, pandas, train_test_split from sklearn.model_selection, LogisticRegression from sklearn.linear_model and at last accuracy_score from sklearn.metrics.S
 * We use numpy Library for storing values as array, Pandas Library for reading the dataset from .csv file and train_test_split( to split the dataset int training and test data * We use Logistic Regression Model for prediction(rock or mine). 
 * We use accuracy_score to check how accurately our model predictes from trained data and test data.
@@ -14,7 +14,7 @@ Dataset Link: https://drive.google.com/file/d/1pQxtljlNVh0DHYg-Ye7dtpDTlFceHVfa/
 * As the values of Mine and Rock are somewhat close we use the Mean Function to find the mean value of 'Rock' and 'Mine' in each feature.
 * Now we seperate the Numerical Data from the Labelled Data and Store the in 'X' and 'Y' variables.
 
-# Step 3: Training and Testing Data
+# Step 3: Training and Testing Data.
 * We store the training data in 'X_train', and corresponding training label data in 'Y_train'.
 * We store the test data in 'X_test' and corresponding test label in 'Y_test'.
 
