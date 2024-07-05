@@ -18,13 +18,13 @@ Dataset Link: https://drive.google.com/file/d/1pQxtljlNVh0DHYg-Ye7dtpDTlFceHVfa/
 * We store the training data in 'X_train', and corresponding training label data in 'Y_train'.
 * We store the test data in 'X_test' and corresponding test label in 'Y_test'.
 
-# Step 4: Now put the data for training purpose into the Logistic Regression Model.
+# Step 4: Loading the data for training purpose into the Logistic Regression Model.
 * We use the model.fit method the input the 'X_train' and 'Y_train' data into the Model.
 * We use the '.predict' function to perform prediction.
 * We check the accuracy of the trained data using the accuraccy_score function.
 * Similarly we perform the same steps on the test data.
 
-# Step 5: Now we Make the Prediction.
+# Step 5: Make the Prediction.
 * We input the value of each Feature int he 'input_data' variable.
 * We reshape(1, -1) the input value into a single row (first dimension) and infers the number of columns (second dimension) based on your original data.
 * Once you've reshaped your data appropriately, you can use the 2D array for prediction.
